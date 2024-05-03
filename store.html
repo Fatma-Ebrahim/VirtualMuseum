@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المتجر</title>
+    <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+<header>
+<div class="container top-nav">
+        <a href="#" class="logo"><img src="images/King-Pharaohs.png" alt=""></a>
+        
+        <form action="" class="search">
+            <input type="search" placeholder="search for products">
+            <button type="submit"> بحث </button>
+        </form>
+        
+        <div class="cart">
+            <div onclick="open_cart()" class="icon-cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="count">0</span>
+            </div>
+        <!-- <div class="total-price">
+            <p>المشتريات</p>
+            <p class="price-cart">$</p>
+        </div> -->
+    </div>
+</div>
+
+<nav>
+    <div class="links container">
+        <ul>
+            <li><a href="" class="active">الصفحة الرئيسية</a></li>
+            <li><a href="">المنتجات</a></li>
+            <li><a href="">الخدمات</a></li>
+            <li><a href="">التواصل</a></li>
+        </ul>
+
+        <div class="log">
+            <a href="">دخول <i class="fa-solid fa-right-to-bracket"></i></a>
+            <a href="">تسجيل <i class="fa-solid fa-user-plus"></i></a>
+        </div>
+    </div>
+</nav>
+</header>
+
+
+<div class="mycart">
+    <div class="top-cart">
+        <h3>مشترياتي</h3>
+        <span onclick="close_cart()" class="close-cart"><i class="fa-regular fa-circle-xmark"></i></span>
+    </div>
+
+    <div class="items-cart">
+    </div>
+
+    <div class="bottom-cart">
+        <div class="total">
+            <p>مجموع المشتريات: </p>
+            <p class="price-total">$0</p>
+        </div>
+        <div class="button-cart">
+            <a href="" class="btn-cart">proceed to checkout</a>
+            <button class="btn-cart trans-bg">shop more</button>
+        </div>
+    </div>
+</div>
+
+<section class="slider">
+    <div class="container">
+        <div class="side-bar">
+            <h2><i class="fa-solid fa-bars"></i>تسوق</h2>
+            <a href=""> خصومات</a>
+            <a href="">الاكثر مبيعا</a>
+            <a href="">أزياء</a>
+            <a href="">اكسسوارات</a>
+            <a href="">انتيكات</a>
+            <a href="">تماثيل</a>
+            <a href="">تواصل</a>
+        </div>
+
+        <div class="swiper mySwiper myyySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/circle-clothes.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="images/circle-statues.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="images/circle-accessories.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="circles">
+    <div class="container">
+        <div class="circle-item">
+            <img src="images/library-landing.png" alt="">
+                <h4>خصومات</h4>
+        </div>
+
+        <div class="circle-item">
+            <img src="images/circle-clothes.jpeg" alt="">
+                <h4>أزياء</h4>
+        </div>
+
+        <div class="circle-item">
+            <img src="images/circle-accessories.jpg" alt="">
+                <h4>اكسسوارات</h4>
+        </div>
+
+        <div class="circle-item">
+            <img src="images/circle-antics.jpeg" alt="">
+                <h4>انتيكات فرعونية</h4>
+        </div>
+
+        <div class="circle-item">
+            <img src="images/circle-statues.jpeg" alt="">
+                <h4>تماثيل</h4>
+        </div>
+    </div>
+</section>
+
+<section class="slide slide-sale">
+    <div class="container">
+        <div class="sale_sec mySwiper">
+            <div class="top-slide">
+                <h2>خصومات</h2>
+                <p class="sale-present">%15</p>
+            </div>
+
+            <div class="products swiper-wrapper" id="products_sale">
+                <div class="product swiper-slide">
+                    <img src="" alt="" class="img">
+                    <h2 class="name"></h2>
+                <div class="price-container">
+                    <p class="price"></p>
+                    <p class="old_price"></p>
+                </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="banners">
+        <img class="banner" src="images/Purple White Orange Modern Geometric Digital Marketing Training Banner.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="slide slide-sale">
+    <div class="container">
+        <div class="sale_sec mySwiper">
+            <div class="top-slide">
+                <h2>خصومات</h2>
+                <p class="sale-present">%15</p>
+            </div>
+
+            <div class="products swiper-wrapper" id="products_sale">
+                <div class="product swiper-slide">
+                    <img src="" alt="" class="img">
+                    <h2 class="name"></h2>
+                <div class="price-container">
+                    <p class="price"></p>
+                    <p class="old_price"></p>
+                </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="feature-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div class="text">
+                <h4>شحن مجانا</h4>
+                <p>jjjjjj</p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <div class="text">
+                <h4>توصيل سريع</h4>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div class="text">
+                <h4>دفع آمن</h4>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div class="text">
+                <h4>شحن مجانا</h4>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="js/java-script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/items.js"></script>
+<script src="js/items.json"></script>
+</body>
+</html>
+
