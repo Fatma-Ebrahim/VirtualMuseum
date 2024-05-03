@@ -1,0 +1,108 @@
+
+[
+    {
+      "id": 0,
+      "img": "images/statues2.png",
+      "name": "Original Mobile",
+      "price": 185,
+      "old_price": 225,
+      "icons": "i"
+    },
+    {
+      "id": 1,
+      "img": "images/statues2.png",
+      "name": "Original Mobile  ",
+      "price": 100,
+      "old_price": 120,
+      "icons": "i"
+    },
+    {
+      "id": 2,
+      "img": "images/statues3.png",
+      "name": "Original  Android",
+      "price": 140,
+      "old_price": 200,
+      "icons": "i"
+    },
+    {
+      "id": 3,
+      "img": "images/statues4.png",
+      "name": "Original Mobile ",
+      "price": 90,
+      "old_price": 110,
+      "icons": "i"
+    },
+    {
+      "id": 4,
+      "img": "images/statues2.png",
+      "name": "Original Mobile ",
+      "price": 350,
+      "old_price": 420,
+      "icons": "i"
+    },
+    {
+      "id": 5,
+      "img": "images/statues2.png",
+      "img_hover": "img/product/product-6.jpg",
+      "name": " Mobile Android ",
+      "price": 115,
+      "old_price": 235,
+      "icons": "i"
+    },
+    {
+      "id": 6,
+      "img": "images/statues2.png",
+      "name": "Original Mobile ",
+      "price": 225,
+      "old_price": 280,
+      "icons": "i"
+    },
+    {
+      "id": 7,
+      "img": "images/statues2.png",
+      "name": "Original Mobile ",
+      "price": 150,
+      "old_price": 200,
+      "icons": "i"
+    },
+    {
+      "id": 8,
+      "img": "images/statues2.png",
+      "name": "Original Mobile",
+      "price": 150,
+      "old_price": 200,
+      "icons": "i"
+    },
+    {
+      "id": 9,
+      "img": "images/statues2.png",
+      "name": "Original Mobile",
+      "price": 150,
+      "old_price": 200,
+      "icons": "i"
+    },
+    {
+      "id": 10,
+      "img": "images/statues2.png",
+      "name": "Original Mobile",
+      "price": 150,
+      "old_price": 200,
+      "icons": "i"
+    },
+    {
+      "id": 11,
+      "img": "img/product/product8.jpg",
+      "name": "Original Mobile",
+      "price": 150,
+      "old_price": 200,
+      "icons": "i"
+    },
+    {
+      "id": 12,
+      "img": "img/product/product8.jpg",
+      "name": "Original Mobile",
+      "price": 150,
+      "old_price": 200,
+      "icons": "i"
+    }
+  ]
